@@ -1,0 +1,88 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url("image/img/bg.jpg");
+    background-size: cover;
+}
+
+.planet-1 {
+    transform: scale(1);
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    z-index: 1;
+}
+
+.planet-2 {
+    position: absolute;
+    transform: scale(1);
+    top: 18%;
+    left: 9%;
+    z-index: 2;
+}
+
+.planet-3 {
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    z-index: 3;
+}
+
+.spaceship {
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    z-index: 2;
+}
+
+.ufo {
+    position: absolute;
+    top: 73%;
+    left: 19%;
+    z-index: 4;
+}
+
+.superman {
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+    z-index: 4;
+}
+
+.asteroid {
+    position: absolute;
+    top: 21%;
+    right: 18%;
+    z-index: 4;
+}
+
+
+button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f57c00;
+    color: white;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
